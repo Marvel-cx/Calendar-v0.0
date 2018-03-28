@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textChecked">#41a1e2</color>
+    <color name="textUnChecked">#464646</color>
+    <color name="div_white">#E5E5E5</color>
+    <color name="sub_title">#fafafa</color>
+    <!--白色  标题 背景-->
+    <color name="colorBackground">#ffffff</color>
+    <!--蓝色  选中下划线 -->
+    <color name="colorLineChoosed">#33B5E5</color>
+    <!--半透明蓝色  选中下划线 阴影-->
+    <color name="colorLineChoosedShadow">#8833B5E5</color>
+    <!--灰色  未选中下划线 -->
+    <color name="colorLineDefault">#FFAAAAAA</color>
+</resources>

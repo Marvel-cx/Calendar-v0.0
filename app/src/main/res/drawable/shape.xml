@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+   
+   
+    <!-- 设置边框宽度，颜色值 -->
+    <stroke android:width="1dip" android:color="#fefefe" />
+    <!-- 设置圆角 -->
+    <corners android:radius="20dp"/>
+    <padding android:bottom="10dp"
+             android:left="10dp"
+             android:right="10dp"
+             android:top="10dp"/>
+</shape>
