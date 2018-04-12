@@ -2,20 +2,27 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.codbking.calendar.exaple">
 
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/applogo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
-            android:theme="@style/AppNotitleTheme"></activity>
-        <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
-            android:name=".DingdingActivity"
+            android:name=".LoginActivity"
             android:theme="@style/AppNotitleTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +32,12 @@
         </activity>
         <activity
             android:name=".XiaomiActivity"
-            android:theme="@style/AppNotitleTheme"></activity>
+            android:theme="@style/AppNotitleTheme" />
+        <activity android:name=".DingdingActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".NFCActivity"
+                  android:theme="@style/AppNotitleTheme">
+        </activity>
     </application>
 
 </manifest>

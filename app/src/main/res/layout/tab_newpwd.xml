@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#068ce3"
+        android:gravity="center"
+        android:text="@string/newpwd"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/oldpwd"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/old_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/oldpwd" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/new_pwd"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/new_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/new_pwd" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/sure_pwd"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/re_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/sure_pwd" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sure"
+        android:layout_width="285dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="39dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/submit_btn"
+        android:gravity="center"
+        android:text="@string/newpwd_submit"
+        android:textColor="#cccccc"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/new_pwd_mention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

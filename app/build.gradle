@@ -31,4 +31,5 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     testCompile 'junit:junit:4.12'
     compile project(':mylibrary')
+    implementation files('libs/fastjson-1.2.47.jar')
 }

@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">CalendarExaple</string>
+    <string name="app_name">巡更终端</string>
+    <string name="patrol_task">巡更任务</string>
+    <string name="submit">事件上报</string>
+    <string name="personal_center">个人中心</string>
+    <string name="jiaotong">交通</string>
+    <string name="zhian">治安</string>
+    <string name="yinhuan">隐患</string>
+    <string name="shebei">设备</string>
+    <string name="submit_hint">请输入上报内容</string>
+    <string name="camera">拍照</string>
+    <string name="submit_btn">上报</string>
+    <string name="newpwd">修改密码</string>
+    <string name="oldpwd">旧密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="sure_pwd">确认密码</string>
+    <string name="newpwd_submit">提交</string>
+    <string name="mention_word">请将手机贴近打卡</string>
 </resources>

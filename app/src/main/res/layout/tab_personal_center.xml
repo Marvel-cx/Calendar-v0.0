@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#1392d5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/userpic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="张警官"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/my_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mysubmit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的上报"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/detail"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/div_tab_bar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/div_white" />
+
+    <LinearLayout
+        android:id="@+id/reset_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/reset"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改密码"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/detail"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/div_white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/div_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="退出登陆"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/div_white" />
+</LinearLayout>

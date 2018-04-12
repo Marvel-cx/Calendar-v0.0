@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#068ce3"
+    android:gravity="center"
+    android:text="@string/submit"
+    android:textColor="#FFF"
+    android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/submit_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/jiaotong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/submit_1"
+            android:gravity="center"
+            android:text="@string/jiaotong"
+            android:textColor="@drawable/top_radio_button_selector" />
+
+        <RadioButton
+            android:id="@+id/zhian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/submit_2"
+            android:gravity="center"
+            android:text="@string/zhian"
+            android:textColor="@drawable/top_radio_button_selector" />
+
+        <RadioButton
+            android:id="@+id/yinhuan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/submit_3"
+            android:gravity="center"
+            android:text="@string/yinhuan"
+            android:textColor="@drawable/top_radio_button_selector" />
+
+        <RadioButton
+            android:id="@+id/shebei"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/submit_4"
+            android:gravity="center"
+            android:text="@string/shebei"
+            android:textColor="@drawable/top_radio_button_selector" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/submit_content"
+        android:layout_width="260dp"
+        android:layout_height="175dp"
+        android:hint="@string/submit_hint"
+        android:gravity="top"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="80dip"
+            android:layout_height="80dip" />
+
+        <ImageView
+            android:layout_width="80dip"
+            android:layout_height="80dip" />
+
+        <ImageButton
+            android:id="@+id/camera"
+            android:layout_width="72dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="startCamera"
+            android:background="@mipmap/camera" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="285dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit_btn"
+        android:background="@drawable/submit_btn"
+        android:textColor="#FFF"
+        android:textSize="22sp"
+        />
+</LinearLayout>

@@ -8,19 +8,14 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import com.codbking.calendar.CaledarAdapter;
 import com.codbking.calendar.CalendarBean;
 import com.codbking.calendar.CalendarDateView;
 import com.codbking.calendar.CalendarUtil;
 import com.codbking.calendar.CalendarView;
-
 import java.util.Date;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
-
 import static com.codbking.calendar.exaple.Utils.px;
 
 
@@ -57,7 +52,6 @@ public class DingdingActivity extends AppCompatActivity {
                 } else {
                     view.setTextColor(0xffffffff);
                 }
-
                 return convertView;
             }
         });
@@ -107,8 +101,5 @@ public class DingdingActivity extends AppCompatActivity {
         return num < 10 ? "0" + num : "" + num;
     }
 
-    @OnClick(R.id.back)
-    public void onClick() {
-        finish();
-    }
+
 }

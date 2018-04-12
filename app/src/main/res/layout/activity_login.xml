@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         android:layout_weight="0.09" >
 
         <TextView
@@ -31,9 +31,9 @@
             android:layout_marginTop="60dip"
             android:background="@drawable/shape"
             android:hint="用户名"
+            android:textColorHint="#cccccc"
             android:textSize="18sp"
             android:textColor="#cccccc" >
-
             <requestFocus />
         </EditText>
 
@@ -47,6 +47,7 @@
             android:layout_marginTop="25dip"
             android:background="@drawable/shape"
             android:hint="密码"
+            android:textColorHint="#cccccc"
             android:maxLines="200"
             android:password="true"
             android:scrollHorizontally="true"
@@ -61,8 +62,8 @@
             android:layout_marginTop="10dip"
             android:text="记住用户名和密码"
             android:textColor="#cccccc"
-            android:scaleX="0.7"
-            android:scaleY="0.7"/>
+            android:scaleX="0.9"
+            android:scaleY="0.9"/>
 
         <Button
             android:id="@+id/btn_login"
@@ -77,5 +78,4 @@
             android:textColor="#cccccc"
             android:textSize="22sp" />
     </RelativeLayout>
-
 </LinearLayout>
